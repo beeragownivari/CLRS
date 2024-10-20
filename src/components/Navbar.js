@@ -29,7 +29,7 @@ console.log(dashboard);
         </div>
         <div className="contact-info">
           <span className="call-now">Call Now!</span>
-          <span className="phone">+91 9901239467</span>
+          <span className="phone">+91 8555931427</span>
           <span className="email">bhagavancv@gmail.com</span>
         </div>
       </div>
