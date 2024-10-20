@@ -1,0 +1,118 @@
+/* Global Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header Top Section */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FF6F4A;
+  padding: 10px 20px;
+}
+
+.social-media {
+  color: white;
+}
+
+.social-media span {
+  margin-right: 15px;
+}
+
+.social-media a {
+  margin-right: 10px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.contact-info .call-now {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.contact-info .phone {
+  margin-right: 20px;
+}
+
+.contact-info .email {
+  margin-left: 10px;
+}
+
+/* Header Bottom Section */
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004D60;
+  padding: 8px 18px;
+}
+
+.logo h1 {
+  color: #FF6F4A;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+}
+
+.logo-icon {
+  margin-right: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #FF6F4A;
+}
+
+/* Admission Button */
+.login a {
+  background-color: #FF6F4A;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 1px 5px;
+}
+
+.login a:hover {
+  background-color: #FF6F4A;
+}
+
+.signup a {
+  background-color: #FF6F4A;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+
+.signup a:hover {
+  background-color: #FF6F4A;
+}
