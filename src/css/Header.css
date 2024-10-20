@@ -19,6 +19,17 @@
   color: white;
 }
 
+.projectName {
+  color: #FF6F4A;
+  text-decoration: none;
+  background-color: transparent; /* This is redundant for links, you can remove it */
+}
+
+.projectName:hover {
+  color: #FF6F4A; /* Keeps the same color on hover */
+  text-decoration: none; /* Optional: add underline for better visibility */
+}
+
 .social-media span {
   margin-right: 15px;
 }
@@ -86,6 +97,7 @@
 
 .navbar a:hover {
   color: #FF6F4A;
+  text-decoration: none;
 }
 
 /* Admission Button */
@@ -100,7 +112,8 @@
 }
 
 .login a:hover {
-  background-color: #FF6F4A;
+  background-color: #004D60;
+  text-decoration: none;
 }
 
 .signup a {
@@ -114,5 +127,28 @@
 }
 
 .signup a:hover {
-  background-color: #FF6F4A;
+  background-color: #004D60;
+  text-decoration: none;
+}
+
+/* Header Container */
+.header-top {
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 18px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.header-bottom {
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 18px;
+  position: fixed;
+  top: 37px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }

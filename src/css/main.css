@@ -1,5 +1,9 @@
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none; 
+}
 
 .hero-section {
+  margin-top: 85px;
   display: flex;
   justify-content: space-between;
   padding: 50px;
@@ -50,6 +54,195 @@
   cursor: pointer;
 }
 
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  z-index: 99999;
+}
+
+#spinner.show {
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
+}
+
+html, body {
+  overflow-y: scroll; 
+  overflow-x: hidden; 
+}
+
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none; 
+}
+
+body {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;    
+}
+
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.hero-section div {
+  width: 45%;
+  text-align: center;
+}
+
+.get-started {
+  background-color: #0070ba;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.office-item {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.office-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.office-img {
+  border: 2px solid #007bff; /* Add border color */
+  border-radius: 0.5rem; /* Border radius */
+  position: relative; /* For overlay positioning */
+}
 
 
 
+.office-img:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.overlay-text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.product-details {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+}
+
+.image-gallery {
+  display: flex;
+  gap: 10px;
+}
+
+.image-gallery img {
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  color: #28a745;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.quantity-selector {
+  margin: 20px 0;
+}
+
+.quantity-selector input {
+  width: 60px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.img_fluid_about_image {
+  max-width: 70%;
+  height: auto;
+}
+
+.feature-item {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon-link {
+  display: inline-block;
+  color: inherit; /* Keeps icon color same as text */
+  transition: color 0.3s;
+}
+
+.icon-link:hover {
+  color: #f39c12; /* Change icon color on hover */
+}
+
+.contact-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  max-width: 600px; /* Set a maximum width */
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333; /* Darker text for better readability */
+}
+
+.contact-section p {
+  font-size: 1rem;
+  color: #666; /* Softer text color for the paragraph */
+  margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.contact-form .form-control:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle shadow on focus */
+}
+
+.contact-form button {
+  margin-top: 10px; /* Space above the button */
+  width: 100%; /* Full width button */
+}

@@ -4,8 +4,6 @@ html, body {
   justify-content: center; /* Horizontal centering */
   align-items: center;     /* Vertical centering */
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to right, rgba(44, 62, 80, 0.7), rgba(76, 161, 175, 0.7)),
-              url('../images/Login-background.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
